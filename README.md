@@ -1,5 +1,5 @@
 # WebApp-S1DRiverFlow-model
-the project of web application development  for S1D River flow model
+the project of web application development for S1D River flow model
 
 ## teaser
 
@@ -13,10 +13,6 @@ the project of web application development  for S1D River flow model
 
 [computational-sediment-hyd](https://github.com/computational-sediment-hyd)
 
-## blog(in Japanese)
+## SNS(in Japanese)
 
-<a href="https://computational-sediment-hyd.hatenablog.jp/"><img src="/logo/hatenablog-logotype.svg" width=50.0%>
-
-## twitter(in Japanese)
-
-<a href="https://twitter.com/CSHforF"><img src="/logo/Twitter_Social_Icon_Rounded_Square_Color.svg" width=12.5%>
+<a href="https://computational-sediment-hyd.hatenablog.jp/"><img src="/logo/hatenablog-logotype.svg" width=25.0%><a href="https://twitter.com/CSHforF"><img src="/logo/Twitter_Social_Icon_Rounded_Square_Color.svg" width=6%>
