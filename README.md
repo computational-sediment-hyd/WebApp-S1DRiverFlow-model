@@ -15,10 +15,8 @@ the project of web application development  for S1D River flow model
 
 ## blog(in Japanese)
 
-[![Alt text](/logo/hatenablog-logotype.svg)](https://computational-sediment-hyd.hatenablog.jp/)
+<a href="https://computational-sediment-hyd.hatenablog.jp/"><img src="/logo/hatenablog-logotype.svg" width=50.0%>
 
 ## twitter(in Japanese)
 
-<!-- [![Alt text](/logo/Twitter_Social_Icon_Rounded_Square_Color.svg)](https://twitter.com/CSHforF) -->
-
-<a href="https://twitter.com/CSHforF"><img src="/logo/Twitter_Social_Icon_Rounded_Square_Color.svg" width=25%>
+<a href="https://twitter.com/CSHforF"><img src="/logo/Twitter_Social_Icon_Rounded_Square_Color.svg" width=12.5%>
