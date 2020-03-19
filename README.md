@@ -19,4 +19,6 @@ the project of web application development  for S1D River flow model
 
 ## twitter(in Japanese)
 
-[![Alt text](/logo/Twitter_Social_Icon_Rounded_Square_Color.svg)](https://twitter.com/CSHforF)
+<!-- [![Alt text](/logo/Twitter_Social_Icon_Rounded_Square_Color.svg)](https://twitter.com/CSHforF) -->
+
+<a href="https://twitter.com/CSHforF"><img src="/logo/Twitter_Social_Icon_Rounded_Square_Color.svg" width=25%>
