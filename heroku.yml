@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: panel serve --address="0.0.0.0" --port=$PORT s1dmodel.ipynb --allow-websocket-origin=s1dmodela.herokuapp.com
+  web: bokeh serve --address="0.0.0.0" --port=$PORT s1dmodel.ipynb --allow-websocket-origin=s1dmodela.herokuapp.com
