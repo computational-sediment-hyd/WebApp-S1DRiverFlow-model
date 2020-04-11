@@ -5,6 +5,6 @@ RUN conda install -y -c pyviz holoviews geoviews panel
 
 WORKDIR /app
 
-COPY  app/s1dmodel.ipynb /app
+COPY  app/s1dmodel.py /app
 
 # COPY data/ /app/data/
