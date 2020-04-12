@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3.4.6.14
+FROM continuumio/miniconda3:4.6.14
 USER root
 RUN chmod -R 777 /opt/conda/
 RUN chown -hR root:root /opt/conda/
