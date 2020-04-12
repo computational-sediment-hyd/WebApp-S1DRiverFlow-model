@@ -1,3 +1,4 @@
+jupyter
 panel
 hvplot
 scikit-learn
