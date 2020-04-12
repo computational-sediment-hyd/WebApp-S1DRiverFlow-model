@@ -1,10 +1,10 @@
-FROM continuumio/miniconda3:4.6.14
-USER root
-RUN chmod -R 777 /opt/conda/
-RUN chown -hR root:root /opt/conda/
+FROM continuumio/miniconda3
 
-RUN conda install -y -c conda-forge numpy cartopy jupyter
-RUN conda install -y -c pyviz holoviews geoviews panel
+RUN . /opt/conda/bin/activate \
+&& conda install -y -c conda-forge numpy cartopy jupyter
+
+RUN . /opt/conda/bin/activate \
+&& conda install -y -c pyviz holoviews geoviews panel
 
 WORKDIR /app
 
