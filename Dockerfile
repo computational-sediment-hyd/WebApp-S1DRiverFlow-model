@@ -23,10 +23,10 @@ SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 
 WORKDIR /app
 
-COPY s1dmodel.ipynb /app
+COPY s1dmodel.py /app
 
 # COPY data/ /app/data/
 
 # ENTRYPOINT ["conda","run","-n","base"]
 # CMD ["panel","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
-CMD ["conda","run","-n","base","bokeh","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
+CMD ["conda","run","-n","base","bokeh","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.py","--allow-websocket-origin=s1dmodel.herokuapp.com"]
