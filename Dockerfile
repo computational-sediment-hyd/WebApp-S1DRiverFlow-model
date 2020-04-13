@@ -5,10 +5,10 @@ FROM continuumio/miniconda3
 
 RUN . /opt/conda/etc/profile.d/conda.sh && conda activate base
 
-RUN . /opt/conda/etc/profile.d/conda.sh &\
+RUN . /opt/conda/etc/profile.d/conda.sh \
 && conda install -y -c pyviz panel
 
-RUN . /opt/conda/etc/profile.d/conda.sh &\
+RUN . /opt/conda/etc/profile.d/conda.sh \
 && conda install -y -c pyviz geoviews
 
 WORKDIR /app
