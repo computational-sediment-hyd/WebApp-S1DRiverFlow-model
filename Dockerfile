@@ -9,14 +9,15 @@ RUN chown -hR root:root /opt/conda/
 
 RUN . /opt/conda/etc/profile.d/conda.sh && conda activate base
 
-RUN . /opt/conda/etc/profile.d/conda.sh \
-&& conda install -y -c conda-forge jupyter
+# RUN . /opt/conda/etc/profile.d/conda.sh \
+# && conda install -y -c conda-forge jupyter
 
 RUN . /opt/conda/etc/profile.d/conda.sh \
 && conda install -y -c pyviz panel
 
 RUN . /opt/conda/etc/profile.d/conda.sh \
-&& conda install -y -c pyviz geoviews holoviews
+&& conda install -y -c pyviz geoviews 
+#holoviews
 
 SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 
