@@ -27,6 +27,6 @@ COPY s1dmodel.ipynb /app
 
 # COPY data/ /app/data/
 
-# ENTRYPOINT ["conda","run","-n","base","panel","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
+ENTRYPOINT ["conda","run","-n","base"]
 
-CMD ["conda","run","-n","base","panel","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
+# CMD ["conda","run","-n","base","panel","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
