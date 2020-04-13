@@ -22,7 +22,7 @@ SHELL ["conda", "run", "-n", "base", "/bin/bash", "-c"]
 
 WORKDIR /app
 
-COPY app/s1dmodel.ipynb /app
+COPY s1dmodel.ipynb /app
 
 # COPY data/ /app/data/
 
