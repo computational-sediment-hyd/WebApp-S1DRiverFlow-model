@@ -48,7 +48,7 @@ COPY source/ /app/source/
 # ENTRYPOINT ["conda","run","-n","base"]
 # CMD ["panel","serve","--address=0.0.0.0","--port=$PORT","s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
 
-CMD ["conda","run","-n","pyviz","bokeh","serve","--address=0.0.0.0","--port=$PORT","source/s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
+CMD ["conda","run","-n","pyviz","panel","serve","--address=0.0.0.0","--port=$PORT","source/s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
 
 # ENTRYPOINT ["conda","run","-n","pyviz","bokeh","serve","source/s1dmodel.ipynb","--port","3128","--allow-websocket-origin=52.199.214.254"]
 # CMD ["conda","run","-n","pyviz","bokeh","serve","source/s1dmodel.ipynb","--port","3128","--allow-websocket-origin=52.199.214.254"]
