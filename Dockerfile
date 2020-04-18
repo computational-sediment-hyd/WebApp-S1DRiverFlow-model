@@ -15,6 +15,6 @@ WORKDIR /app
 
 COPY source/ /app/source/
 
-ENTRYPOINT ["conda","run","-n","base"]
+ENTRYPOINT ["conda","run","-n","pyviz"]
 
 # CMD ["conda","run","-n","pyviz","panel","serve","--address=0.0.0.0","--port=$PORT","source/s1dmodel.ipynb","--allow-websocket-origin=s1dmodel.herokuapp.com"]
